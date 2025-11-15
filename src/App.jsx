@@ -1,13 +1,14 @@
-import bootstrap from 'bootstrap';
+
 import axios from 'axios';
 import {Router} from 'react-router-dom';
 
+import Header from '../Components/Header';
 
 function App() {
 
   return (
     <>
-      
+      <Header/>
     </>
   )
 }
