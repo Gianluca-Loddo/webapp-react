@@ -16,8 +16,8 @@ Ragionare  su come iompostare la struttura del lavoro, magari createvi uno schem
 << MILESTONE 1 >>
 
 ✅ Mettiamo su un nuovo progetto React aiutandoci con Vite,
-✅ ipuliamo come sempre l’app da file e codice di esempio non necessari,
-Installiamo il necessario: React Router, Axios e Bootstrap (se volete utilizzarlo).
+✅ Ripuliamo come sempre l’app da file e codice di esempio non necessari,
+✅ Installiamo il necessario: React Router, Axios e Bootstrap (se volete utilizzarlo).
 
 << MILESTONE 2 >>
 
