@@ -11,7 +11,7 @@ export default function Header() {
                             Home
                         </NavLink>
 
-                        <NavLink className="nav-link" to="/products">
+                        <NavLink className="nav-link" to="/movies">
                             Movies 📽
                         </NavLink>
                     </div>
