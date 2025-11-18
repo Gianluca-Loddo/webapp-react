@@ -14,11 +14,11 @@ export default function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route Component={DefaultLayout}>
-          
-          <Route path='/' Component={HomePage} />
-          <Route path='/movies' Component={MovieList} />
-          <Route path='/movies/:id' Component={MovieDetails} />
+        <Route element={<DefaultLayout />}>
+
+          <Route path='/' element={<HomePage />} />
+          <Route path='/movies' element={<MovieList />} />
+          <Route path='/movies/:id' element={<MovieDetails />} />
 
         </Route>
 

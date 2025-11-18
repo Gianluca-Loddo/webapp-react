@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import axiosClient from "../src/axiosClient";
 
 export default function MovieList() {
+    console.log("MOVIELIST CARICATA!")
 
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        axiosClient.get("/movies")
+        axiosClient.get("/")
             .then(res => {
                 console.log("FILM FROM BACKEND:", res.data);
                 setMovies(res.data);

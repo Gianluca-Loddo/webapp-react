@@ -9,7 +9,7 @@ export default function DefaultLayout() {
         <>
             <Header />
             <Body>
-                <Outlet/>
+                <Outlet />
             </Body>
             <Footer />
         </>
