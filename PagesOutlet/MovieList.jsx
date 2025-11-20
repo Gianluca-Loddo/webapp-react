@@ -18,7 +18,9 @@ export default function MovieList() {
 
     return (
         <div>
-            <h1 className="mb-4">MOVIE LIST</h1>
+            <br />
+            <h1>📽 MOVIE LIST 📽</h1>
+            <br />
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                 {movies.map(movie => (
                     <div key={movie.id} className="col">

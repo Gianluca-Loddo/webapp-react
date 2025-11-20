@@ -47,22 +47,7 @@ export default function MovieDetails() {
                 style={{ display: "block", margin: "20px 0" }}
             />
 
-            <h2>Reviews</h2>
-
-            {movie.reviews && movie.reviews.length > 0 ? (
-                movie.reviews.map(review => (
-                    <div key={review.id}>
-                        <p>
-                            <strong>{review.name}</strong> — ⭐ {review.vote}
-                        </p>
-                        <p>{review.text}</p>
-                        <hr />
-                    </div>
-                ))
-            ) : (
-                <p>No reviews yet.</p>
-            )}
-
+ 
             <button
                 className="btn btn-secondary mt-3"
                 onClick={() => navigate(-1)}
