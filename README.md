@@ -11,7 +11,7 @@ Ora è il momento di prepararci al frontend della nostra Web App!
 
 << MILESTONE 0 >> 
 
-Ragionare  su come iompostare la struttura del lavoro, magari createvi uno schemino in maniera da sfruttare la riutailizzabilità dei componenti React e le loro props al meglio.,
+✅ Ragionare  su come impostare la struttura del lavoro, magari createvi uno schemino in maniera da sfruttare la riutilizzabilità dei componenti React e le loro props al meglio.,
 
 << MILESTONE 1 >>
 
@@ -35,7 +35,7 @@ Creiamo 2 pagine:
 
 << MILESTONE 4 >>
 
-In ultimo, effettuiamo una chiamata AJAX dalla pagina di dettaglio per ottenere il dettaglio di un singolo film, comprese le sue recensioni.
+✅ In ultimo, effettuiamo una chiamata AJAX dalla pagina di dettaglio per ottenere il dettaglio di un singolo film, comprese le sue recensioni.
 
 << Bonus >>
-Curare l’aspetto estetico della vostra applicazione.
+✅ Curare l’aspetto estetico della vostra applicazione.
