@@ -56,7 +56,7 @@ export default function MovieDetails() {
                         <li key={review.id}>
                             <strong>Vote:</strong> {review.vote} ⭐
                             <br />
-                            <em>{review.content}</em>
+                            <em>{review.text}</em>
                         </li>
                     ))}
                 </ul>
