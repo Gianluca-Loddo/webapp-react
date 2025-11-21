@@ -9,7 +9,9 @@ export default function DefaultLayout() {
         <>
             <Header />
             <Body>
-                <Outlet />
+                <div className="main-content">
+                    <Outlet />
+                </div>
             </Body>
             <Footer />
         </>

@@ -4,3 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Il contenuto deve espandersi */
+.main-content {
+    flex: 1;
+}
